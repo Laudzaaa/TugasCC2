@@ -1,0 +1,10 @@
+CLOUD RUN DEPLOYMENT EVIDENCE
+
+Command:
+gcloud run deploy notes-api --source . --platform managed --region asia-southeast2 --allow-unauthenticated --env-vars-file cloudrun-env.yaml --quiet
+
+Key output:
+Building using Dockerfile and deploying container to Cloud Run service [notes-api] in project [e-31-489014] region [asia-southeast2]
+OK Building and deploying... Done.
+Service [notes-api] revision [notes-api-00002-wpw] has been deployed and is serving 100 percent of traffic.
+Service URL: https://notes-api-132702792159.asia-southeast2.run.app

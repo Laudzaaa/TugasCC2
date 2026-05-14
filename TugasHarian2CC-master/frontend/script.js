@@ -1,6 +1,7 @@
 // script.js
 
-const API_URL = 'http://localhost:5000/notes';
+const API_BASE_URL = window.API_BASE_URL || 'https://notes-api-132702792159.asia-southeast2.run.app';
+const API_URL = `${API_BASE_URL}/notes`;
 
 // Fetch all notes
 

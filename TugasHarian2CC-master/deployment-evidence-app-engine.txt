@@ -1,0 +1,17 @@
+APP ENGINE DEPLOYMENT EVIDENCE
+
+Command:
+gcloud app deploy app.yaml --quiet
+
+Key output:
+Beginning deployment of service [default]...
+Setting traffic split for service [default]...done.
+Deployed service [default] to [https://e-31-489014.et.r.appspot.com]
+
+Frontend service command:
+gcloud app deploy app.yaml --quiet (from frontend folder)
+
+Key output:
+Beginning deployment of service [frontend]...
+Setting traffic split for service [frontend]...done.
+Deployed service [frontend] to [https://frontend-dot-e-31-489014.et.r.appspot.com]

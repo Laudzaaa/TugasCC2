@@ -1,9 +1,9 @@
 -- SQL schema generated from current Sequelize model
--- Database: catatan
+-- Database: notes_NIM
 -- Table: notes
 
-CREATE DATABASE IF NOT EXISTS catatan;
-USE catatan;
+CREATE DATABASE IF NOT EXISTS notes_NIM;
+USE notes_NIM;
 
 CREATE TABLE IF NOT EXISTS notes (
     id INT NOT NULL AUTO_INCREMENT,

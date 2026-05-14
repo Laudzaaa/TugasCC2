@@ -1,0 +1,5 @@
+runtime: nodejs20
+env: standard
+service: frontend
+
+instance_class: F1
